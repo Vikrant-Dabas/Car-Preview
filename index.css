@@ -23,6 +23,8 @@ body {
     padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
 }
 
 .column:nth-child(1) {
@@ -39,6 +41,7 @@ body {
 
 .column:nth-child(2) .btn {
     color: hsl(184, 100%, 22%);
+    margin-top: 1rem;
 }
 
 .column:nth-child(3) {
@@ -66,10 +69,9 @@ body {
     color: hsla(0, 0%, 100%, 0.7);
     font-size: 0.8rem;
     line-height: 1.2rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
-.btn{
-    justify-self: flex-end;
+.column .btn{
     background-color: white;
     border: none;
     height: 2rem;
